@@ -5,8 +5,8 @@ const outDir = process.env.MAKEFUN_OUTPUT_DIR || '/output';
 mkdirSync(outDir, { recursive: true });
 
 const text =
-  'After rain, the salt flat holds the whole sky without a seam. ' +
-  'One pale cloud crosses the shallow water all afternoon, its reflection resting on the salt. ' +
-  'By dusk the wind lies down on the glass, and the light turns from silver to slate, leaving only distance.';
+  'Warm rain falls through an old orchard all evening, soaking the moss on the bark and pooling in the grass. ' +
+  'Nobody is out to watch it, and nothing in the trees asks to be answered or kept. ' +
+  'The apples swell slowly in the dark, as they have for a hundred autumns.';
 
 writeFileSync(join(outDir, 'entry.txt'), text, 'utf8');
